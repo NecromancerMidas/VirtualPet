@@ -64,7 +64,7 @@ namespace VirtualPet
                Console.WriteLine(@$"You have failed to take care of your pet, someone better is taking care of it now.
 the name {_name} will soon leave its memory, just like you will. GAME OVER.");
                 Console.WriteLine("Closing, standby.");
-               Thread.Sleep(10000);
+               Thread.Sleep(5000);
                 Environment.Exit(1);
                 
            }
