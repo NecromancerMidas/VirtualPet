@@ -65,7 +65,7 @@ namespace VirtualPet
 the name {_name} will soon leave its memory, just like you will. GAME OVER.");
                 Console.WriteLine("Closing, standby.");
                Thread.Sleep(10000);
-                Environment.Exit(0);
+                Environment.Exit(1);
                 
            }
            CheckifLevelUp();
